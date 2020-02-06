@@ -102,11 +102,30 @@ for x in range(180):
     elif letter == "U":
 	    pass
     elif letter == "V":
-	    pass
+tur.right(80)
+tur.forward(100)
+tur.left(140)
+tur.forward(100)
+
     elif letter == "W":
-	    pass
+tur.right(80)
+tur.forward(100)
+tur.left(140)
+tur.forward(80)
+tur.right(140)
+tur.forward(80)
+tur.left(140)
+tur.forward(100)
+
+
     elif letter == "X":
-	    pass
+tur.right(45)
+tur.forward(100)
+tur.backward(50)
+tur.right(90)
+tur.forward(50)
+tur.backward(100)
+
     elif letter == "Y":
 	turtle.right(60)
 	turtle.forward(100)
@@ -118,7 +137,12 @@ for x in range(180):
 	turtle.forward(150)
 	    pass
     elif letter == "Z":
-	    pass		
+tur.forward(100)
+tur.right(130)
+tur.forward(135)
+tur.left(130)
+tur.forward(100)
+
 
         
     elif letter == "Ax":
