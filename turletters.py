@@ -1,4 +1,37 @@
 import turtle
+tur = turtle.Turtle()
+tur.forward(100)
+tur.backward(100)
+tur.right(90)
+tur.forward(100)
+tur.left(90)
+tur.forward(100)
+tur.right(90)
+tur.forward(100)
+tur.backward(100)
+tur.right(90)
+tur.forward(100)
+tur.left(90)
+tur.forward(100)
+tur.right(90)
+tur.forward(100)
+tur.backward(100)
+tur.right(90)
+tur.forward(100)
+tur.left(90)
+tur.forward(100)
+tur.right(90)
+tur.forward(100)
+def turtleLetter(letter,tur):
+    if letter=="box":
+        tur.setheading(0)
+        tur.forward(40)
+        tur.right(90)
+        tur.forward(60)
+        tur.right(90)
+        tur.forward(40)
+        tur.right(90)
+        tur.forward(60)
 
 def turtleLetter(letter,tur):
     if letter=="box":
@@ -37,7 +70,7 @@ def turtleLetter(letter,tur):
         tur.fd(35)
         #tur.right(180)
     elif letter == "B":
-	tur.pd()
+        tur.pd()
         tur.setheading(0)
         tur.right(90)
         tur.forward(60)
@@ -59,7 +92,7 @@ def turtleLetter(letter,tur):
         tur.right(90)
         tur.forward(20)
     elif letter == "C":
-	tur.pd()
+        tur.pd()
         tur.setheading(0)
         tur.forward(40)
         tur.right(45)
@@ -78,7 +111,7 @@ def turtleLetter(letter,tur):
         tur.pu()
         tur.forward(60)
     elif letter == "D":
-	tur.pd()
+        tur.pd()
         tur.setheading(0)
         tur.fd(40)
         tur.right(45)
@@ -95,7 +128,7 @@ def turtleLetter(letter,tur):
         tur.pu()
         tur.fd(60)
     elif letter == "E":
-	tur.pd()
+        tur.pd()
         tur.setheading(0)
         tur.right(90)
         tur.fd(60)
@@ -116,7 +149,7 @@ def turtleLetter(letter,tur):
         tur.pu()
         tur.fd(20)
     elif letter == "F":
-	tur.pd()
+        tur.pd()
         tur.setheading(0)
         tur.right(90)
         tur.fd(60)
@@ -133,7 +166,7 @@ def turtleLetter(letter,tur):
         tur.pu()
         tur.fd(20)
     elif letter == "G":
-	tur.pd()
+        tur.pd()
         tur.setheading(0)
         tur.fd(40)
         tur.right(90)
@@ -157,7 +190,7 @@ def turtleLetter(letter,tur):
         tur.fd(50)
         tur.right(90)		
     elif letter == "H":
-	tur.pendown()
+        tur.pendown()
         tur.right(90)
         tur.forward(40)
         tur.backward(20)
@@ -175,7 +208,7 @@ def turtleLetter(letter,tur):
         tur.penup()
         tur.forward(10)
     elif letter == "I":
-	tur.pendown()
+        tur.pendown()
         tur.setheading(0)
         tur.right(90)
         tur.forward(50)
@@ -190,9 +223,9 @@ def turtleLetter(letter,tur):
         tur.backward(80)
         tur.right(180)
         tur.penup()
-	tur.forward(20)
+        tur.forward(20)
     elif letter == "J":
-	tur.pendown()
+        tur.pendown()
         tur.backward(40)
         tur.forward(20)
         tur.right(90)
@@ -208,7 +241,7 @@ def turtleLetter(letter,tur):
         tur.forward(20)
         tur.penup()
     elif letter == "K":
-	tur.pendown()
+        tur.pendown()
         tur.left(90)
         tur.forward(50)
         tur.backward(20)
@@ -224,7 +257,7 @@ def turtleLetter(letter,tur):
         tur.right(45)
         tur.penup()
     elif letter == "L":
-	tur.pendown()
+        tur.pendown()
         tur.right(90)
         tur.forward(50)
         tur.left(90)
@@ -237,8 +270,8 @@ def turtleLetter(letter,tur):
         tur.forward(30)
         tur.penup()
     elif letter == "M":
-	tur.pd()
-	tur.right(90)
+        tur.pd()
+        tur.right(90)
         tur.forward(40)
         tur.backward(40)
         tur.left(45)
@@ -252,7 +285,7 @@ def turtleLetter(letter,tur):
         tur.left(90)
         tur.forward(10)
     elif letter == "N":
-	tur.pendown()
+        tur.pendown()
         tur.right(90)
         tur.forward(40)
         tur.backward(40)
@@ -264,7 +297,7 @@ def turtleLetter(letter,tur):
         tur.right(90)
         tur.forward(5)
     elif letter == "O":
-	tur.pendown()
+        tur.pendown()
         tur.circle(40,360)
         tur.penup()
         tur.circle(40,110)
@@ -417,7 +450,7 @@ def turtleLetter(letter,tur):
         tur.right(65)
         tur.fd(10)
     elif letter == "W":
-	tur.pendown()
+        tur.pendown()
         tur.right(90)
         tur.forward(40)
         tur.left(130)
@@ -430,7 +463,7 @@ def turtleLetter(letter,tur):
         tur.penup()
         tur.forward(10)
     elif letter == "X":
-	tur.right(50)
+        tur.right(50)
         tur.forward(60)
         tur.left(180)
         tur.forward(30)
@@ -440,7 +473,7 @@ def turtleLetter(letter,tur):
         tur.forward(60)
         tur.right(30)
     elif letter == "Y":
-	tur.right(50)
+        tur.right(50)
         tur.forward(50)
         tur.left(90)
         tur.forward(50)
@@ -455,7 +488,7 @@ def turtleLetter(letter,tur):
         tur.forward(50)
         tur.right(30)
     elif letter == "Z":
-	tur.forward(60)
+        tur.forward(60)
         tur.right(135)
         tur.forward(60)
         tur.left(135)
@@ -514,7 +547,7 @@ if __name__ == "__main__":
     tur = turtle.Turtle()
     tur.speed(1)
     #turtleLetter("box",tur)
-    turtleLetter("A",tur)
+    turtleLetter("B",tur)
 
 
     window.exitonclick()
